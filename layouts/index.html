@@ -1,23 +1,14 @@
 {{ define "main" }}
-    {{ with site.GetPage "page" "about" }}
-        <section class="article-list article-list--about">
-            <article>
-                <header class="article-header">
-                    <h1 class="article-title">
-                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-                    </h1>
-                </header>
-                <section class="article-content">
-                    {{ .Content }}
-                </section>
-            </article>
-        </section>
-    {{ end }}
-
     {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
     {{ $notHidden := where .Site.RegularPages "Params.hidden" "!=" true }}
     {{ $filtered := ($pages | intersect $notHidden) }}
     {{ $pag := .Paginate ($filtered) }}
+
+    {{ with site.GetPage "page" "about" }}
+        <section class="article-list">
+            {{ partial "article-list/default" . }}
+        </section>
+    {{ end }}
 
     <section class="article-list">
         {{ range $index, $element := $pag.Pages }}
