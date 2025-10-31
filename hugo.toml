@@ -1,0 +1,134 @@
+baseURL = "/"
+languageCode = "ja"
+title = "Notation Co. JP"
+theme = "stack"
+defaultContentLanguage = "ja"
+hasCJKLanguage = true
+enableRobotsTXT = true
+
+[permalinks]
+  post = "/p/:slug/"
+  page = "/:slug/"
+
+[params]
+  mainSections = ["post"]
+  featuredImageField = "image"
+  rssFullContent = true
+
+[params.footer]
+  since = 2025
+  customText = ""
+
+[params.dateFormat]
+  published = "2006-01-02"
+  lastUpdated = "2006-01-02 15:04 MST"
+
+[params.sidebar]
+  emoji = ":)"
+  subtitle = "Insights from Notation Co., Ltd."
+  description = "Company updates and product notes."
+
+[params.sidebar.avatar]
+  enabled = false
+  local = true
+  src = "img/avatar.png"
+
+[params.article]
+  math = false
+  toc = true
+  readingTime = true
+
+[params.article.license]
+  enabled = false
+  default = ""
+
+[params.comments]
+  enabled = false
+  provider = ""
+
+[[params.widgets.homepage]]
+  type = "search"
+
+[[params.widgets.homepage]]
+  type = "archives"
+  [params.widgets.homepage.params]
+    limit = 5
+
+[[params.widgets.homepage]]
+  type = "categories"
+  [params.widgets.homepage.params]
+    limit = 10
+
+[[params.widgets.homepage]]
+  type = "tag-cloud"
+  [params.widgets.homepage.params]
+    limit = 10
+
+[[params.widgets.page]]
+  type = "toc"
+
+[params.opengraph.twitter]
+  site = ""
+  card = "summary_large_image"
+
+[params.defaultImage.opengraph]
+  enabled = false
+  local = false
+  src = ""
+
+[params.colorScheme]
+  toggle = true
+  default = "auto"
+
+[params.imageProcessing.cover]
+  enabled = true
+
+[params.imageProcessing.content]
+  enabled = true
+
+[pagination]
+  pagerSize = 6
+
+[menu]
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 20
+
+[related]
+  includeNewer = true
+  threshold = 60
+  toLower = false
+
+[[related.indices]]
+  name = "tags"
+  weight = 100
+
+[[related.indices]]
+  name = "categories"
+  weight = 200
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.tableOfContents]
+  endLevel = 4
+  ordered = true
+  startLevel = 2
+
+[markup.highlight]
+  noClasses = false
+  codeFences = true
+  guessSyntax = true
+  lineNoStart = 1
+  lineNos = true
+  lineNumbersInTable = true
+  tabWidth = 4
