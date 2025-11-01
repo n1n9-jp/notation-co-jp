@@ -1,10 +1,11 @@
 +++
 title = "About"
-description = "What Notation Co., Ltd. does and how to reach us."
+description = ""
 +++
 
-Notation Co., Ltd. is building tools and guidance for better notation workflows in Japan.  
+合同会社ノーテーション
 
-- **Location:** Tokyo, Japan  
-- **Focus:** Communication design, documentation, and product enablement  
-- **Contact:** info@notation.co.jp
+新サイトを構築中です。旧サイトをご覧ください。
+- [旧サイト：Notion](https://notation.notion.site/22aea60b987043d28183817e84e5ba1b)
+
+お問い合わせは info@notation.co.jp までお願いいたします。
