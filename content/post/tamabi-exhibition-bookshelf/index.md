@@ -4,7 +4,7 @@ title = "【多摩美90周年記念】「EXHIBITION:情デの本棚」"
 slug = "tamabi-exhibition-bookshelf"
 date = "2025-10-18"
 categories = [
-    "civictech"
+    "education"
 ]
 tags = [
     ""
