@@ -94,16 +94,22 @@ enableRobotsTXT = true
   weight = 20
 
 [[menu.main]]
+  identifier = "lecture"
+  name = "研修"
+  url = "/categories/lecture/"
+  weight = 60
+
+[[menu.main]]
   identifier = "education"
   name = "教育"
   url = "/categories/education/"
-  weight = 30
+  weight = 70
 
 [[menu.main]]
   identifier = "civictech"
   name = "シビックテック"
   url = "/categories/civictech/"
-  weight = 40
+  weight = 80
 
 [related]
   includeNewer = true
