@@ -47,7 +47,12 @@ enableRobotsTXT = true
   provider = ""
 
 [params.widgets]
-  homepage = []
+  homepage = [
+      { type = "search" },
+      { type = "archives", params = { limit = 5 } },
+      { type = "categories", params = { limit = 10 } },
+      { type = "tag-cloud", params = { limit = 10 } }
+  ]
 
 [[params.widgets.page]]
   type = "toc"
@@ -87,6 +92,18 @@ enableRobotsTXT = true
   name = "About"
   url = "/about/"
   weight = 20
+
+[[menu.main]]
+  identifier = "education"
+  name = "教育"
+  url = "/categories/education/"
+  weight = 30
+
+[[menu.main]]
+  identifier = "civictech"
+  name = "シビックテック"
+  url = "/categories/civictech/"
+  weight = 40
 
 [related]
   includeNewer = true
