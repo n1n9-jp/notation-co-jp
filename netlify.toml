@@ -20,9 +20,3 @@
   package = "netlify-plugin-hugo-cache-resources"
   [plugins.inputs]
     srcdir = "."
-
-[[redirects]]
-  from = "/"
-  to = "/about/"
-  status = 301
-  force = true
