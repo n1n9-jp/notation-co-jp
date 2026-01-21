@@ -25,7 +25,7 @@ enableRobotsTXT = true
 
 [params.sidebar]
   emoji = ":)"
-  subtitle = "Insights from Notation Co., Ltd."
+  subtitle = "Activities from Notation Co., Ltd."
   description = "Company updates and product notes."
 
 [params.sidebar.avatar]
