@@ -4,7 +4,7 @@ title = "NHKの局員全国500名への勉強会"
 slug = "lecture-nhk"
 date = "2020-12-21"
 categories = [
-    "lecture"
+    "journalism"
 ]
 tags = [
 ]
