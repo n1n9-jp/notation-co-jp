@@ -77,7 +77,7 @@ enableRobotsTXT = true
   enabled = true
 
 [pagination]
-  pagerSize = 6
+  pagerSize = 15
 
 [menu]
 
