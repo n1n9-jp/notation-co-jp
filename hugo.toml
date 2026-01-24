@@ -111,6 +111,12 @@ enableRobotsTXT = true
   url = "/categories/civictech/"
   weight = 80
 
+[[menu.main]]
+  identifier = "journalism"
+  name = "報道"
+  url = "/categories/journalism/"
+  weight = 90
+
 [related]
   includeNewer = true
   threshold = 60
