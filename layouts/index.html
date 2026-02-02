@@ -1,25 +1,119 @@
 {{ define "main" }}
-{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-{{ $notHidden := where .Site.RegularPages "Params.hidden" "!=" true }}
-{{ $filtered := ($pages | intersect $notHidden) }}
-{{ $pag := .Paginate ($filtered) }}
+<div class="subsection-list">
+    <div class="home-header" style="margin-bottom: 80px;">
+        <h1 class="home-title"
+            style="color: rgb(16, 185, 129); font-size: 40px; font-weight: 800; font-family: 'Noto Sans JP', sans-serif; margin: 0;">
+            Notation Co. JP</h1>
+        <p class="home-description"
+            style="color: rgba(255, 255, 255, 0.9); font-size: 16.5px; line-height: 26.4px; margin-top: 10px; font-weight: 400;">
+            Activities from Notation Co., Ltd.</p>
+    </div>
+    <h2 class="section-title">外部リンク</h2>
+    <div class="article-list--tile">
+        <article class="has-image" style="height: auto; overflow: visible; background: transparent; box-shadow: none;">
+            <a href="https://data-viz-lectures.com/" style="display: flex; flex-direction: column; height: 100%;">
+                <div class="article-image"
+                    style="position: relative; width: 100%; height: 150px; border-radius: var(--card-border-radius); overflow: hidden; box-shadow: var(--shadow-l1);">
+                    <img src="/img/cover_data_viz_lectures.png" loading="lazy"
+                        alt="Featured image of post Data-Viz-Lectures" style="height: 100%; object-fit: cover;">
+                    <div class="article-details"
+                        style="position: absolute; top: 0; width: 100%; padding: 15px; background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 100%);">
+                        <h2 class="article-title" style="color: white; font-size: 1.6rem; margin: 0;">データ可視化講習</h2>
+                    </div>
+                </div>
+                <div class="article-description" style="padding: 10px 0;">
+                    <p style="margin: 0; font-size: 1.4rem; color: var(--card-text-color-secondary);">
+                        日本で唯一の本格的なデータ可視化講習。初学者から実務家まで対応。</p>
+                </div>
+            </a>
+        </article>
+        <article class="has-image" style="height: auto; overflow: visible; background: transparent; box-shadow: none;">
+            <a href="https://visualizing.jp/" style="display: flex; flex-direction: column; height: 100%;">
+                <div class="article-image"
+                    style="position: relative; width: 100%; height: 150px; border-radius: var(--card-border-radius); overflow: hidden; box-shadow: var(--shadow-l1);">
+                    <img src="/img/cover_visualizing_jp.png" loading="lazy" alt="Featured image of post Visualizing.JP"
+                        style="height: 100%; object-fit: cover;">
+                    <div class="article-details"
+                        style="position: absolute; top: 0; width: 100%; padding: 15px; background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 100%);">
+                        <h2 class="article-title" style="color: white; font-size: 1.6rem; margin: 0;">Visualizing.JP
+                        </h2>
+                    </div>
+                </div>
+                <div class="article-description" style="padding: 10px 0;">
+                    <p style="margin: 0; font-size: 1.4rem; color: var(--card-text-color-secondary);">
+                        データ可視化の実践的手法や実例、技術情報を紹介。</p>
+                </div>
+            </a>
+        </article>
+        <article class="has-image" style="height: auto; overflow: visible; background: transparent; box-shadow: none;">
+            <a href="https://www.dataviz.jp/" style="display: flex; flex-direction: column; height: 100%;">
+                <div class="article-image"
+                    style="position: relative; width: 100%; height: 150px; border-radius: var(--card-border-radius); overflow: hidden; box-shadow: var(--shadow-l1);">
+                    <img src="/img/cover_dataviz_jp_hero.png" loading="lazy" alt="Featured image of post dataviz.jp"
+                        style="height: 100%; object-fit: cover;">
+                    <div class="article-details"
+                        style="position: absolute; top: 0; width: 100%; padding: 15px; background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 100%);">
+                        <h2 class="article-title" style="color: white; font-size: 1.6rem; margin: 0;">dataviz.jp</h2>
+                    </div>
+                </div>
+                <div class="article-description" style="padding: 10px 0;">
+                    <p style="margin: 0; font-size: 1.4rem; color: var(--card-text-color-secondary);">
+                        データ可視化・加工の便利ツール集。目的別にツールを探せます。</p>
+                </div>
+            </a>
+        </article>
+        <article class="has-image" style="height: auto; overflow: visible; background: transparent; box-shadow: none;">
+            <a href="https://www.youtube.com/@datavisualizationjapan"
+                style="display: flex; flex-direction: column; height: 100%;">
+                <div class="article-image"
+                    style="position: relative; width: 100%; height: 150px; border-radius: var(--card-border-radius); overflow: hidden; box-shadow: var(--shadow-l1);">
+                    <img src="/img/cover_dataviz_jp_hero.png" loading="lazy"
+                        alt="Featured image of Data Visualization Japan" style="height: 100%; object-fit: cover;">
+                    <div class="article-details"
+                        style="position: absolute; top: 0; width: 100%; padding: 15px; background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 100%);">
+                        <h2 class="article-title" style="color: white; font-size: 1.6rem; margin: 0;">Data Visualization
+                            Japan - YouTube</h2>
+                    </div>
+                </div>
+                <div class="article-description" style="padding: 10px 0;">
+                    <p style="margin: 0; font-size: 1.4rem; color: var(--card-text-color-secondary);"></p>
+                </div>
+            </a>
+        </article>
+        <article class="has-image" style="height: auto; overflow: visible; background: transparent; box-shadow: none;">
+            <a href="https://www.youtube.com/@visualizingjp"
+                style="display: flex; flex-direction: column; height: 100%;">
+                <div class="article-image"
+                    style="position: relative; width: 100%; height: 150px; border-radius: var(--card-border-radius); overflow: hidden; box-shadow: var(--shadow-l1);">
+                    <img src="/img/cover_visualizing_jp.png" loading="lazy" alt="Featured image of ヤザキユウイチ"
+                        style="height: 100%; object-fit: cover;">
+                    <div class="article-details"
+                        style="position: absolute; top: 0; width: 100%; padding: 15px; background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 100%);">
+                        <h2 class="article-title" style="color: white; font-size: 1.6rem; margin: 0;">ヤザキユウイチ - YouTube
+                        </h2>
+                    </div>
+                </div>
+                <div class="article-description" style="padding: 10px 0;">
+                    <p style="margin: 0; font-size: 1.4rem; color: var(--card-text-color-secondary);"></p>
+                </div>
+            </a>
+        </article>
+    </div>
 
-{{ with site.GetPage "page" "about" }}
-<section class="article-list">
-    {{ partial "article-list/default" . }}
-</section>
-{{ end }}
+    <h2 class="section-title">カテゴリー</h2>
+    <div class="article-list--tile">
+        {{ range .Site.Menus.main }}
+        {{ if in .URL "/categories/" }}
+        {{ with $.Site.GetPage .URL }}
+        {{ partial "article-list/tile" (dict "context" . "size" "250x150" "Type" "section") }}
+        {{ end }}
+        {{ end }}
+        {{ end }}
+    </div>
+</div>
 
-<section class="article-list--grid">
-    {{ range $index, $element := $pag.Pages }}
-    {{ partial "article-list/tile" (dict "context" . "size" "500x300" "Type" "section") }}
-    {{ end }}
-</section>
-
-{{- partial "pagination.html" . -}}
 {{- partial "footer/footer" . -}}
 {{ end }}
 
 {{ define "right-sidebar" }}
-{{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
 {{ end }}
