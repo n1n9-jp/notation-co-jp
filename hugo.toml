@@ -67,8 +67,8 @@ enableRobotsTXT = true
   src = ""
 
 [params.colorScheme]
-  toggle = true
-  default = "auto"
+  toggle = false
+  default = "dark"
 
 [params.imageProcessing.cover]
   enabled = true
