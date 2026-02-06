@@ -1,0 +1,43 @@
+<nav aria-label="breadcrumb" class="breadcrumb-nav">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ .Site.BaseURL }}">Home</a></li>
+        {{ if .Parent }}
+        {{ if ne .Parent .Site.Home }}
+        <li class="breadcrumb-item"><a href="{{ .Parent.Permalink }}">{{ .Parent.Title }}</a></li>
+        {{ end }}
+        {{ end }}
+        <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+    </ol>
+</nav>
+
+<style>
+    .breadcrumb-nav {
+        margin-bottom: 20px;
+        font-size: 0.9em;
+    }
+
+    .breadcrumb {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .breadcrumb-item+.breadcrumb-item::before {
+        display: inline-block;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+        color: var(--card-text-color-secondary);
+        content: "/";
+    }
+
+    .breadcrumb-item a {
+        color: var(--card-text-color-secondary);
+        text-decoration: none;
+    }
+
+    .breadcrumb-item.active {
+        color: var(--card-text-color-main);
+    }
+</style>

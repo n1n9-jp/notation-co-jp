@@ -6,6 +6,10 @@ defaultContentLanguage = "ja"
 hasCJKLanguage = true
 enableRobotsTXT = true
 
+[minify]
+  disableXML = true
+  minifyOutput = true
+
 [permalinks]
   post = "/p/:slug/"
   page = "/:slug/"
@@ -29,9 +33,14 @@ enableRobotsTXT = true
   description = "Company updates and product notes."
 
 [params.sidebar.avatar]
-  enabled = false
+  enabled = true
   local = true
   src = "img/avatar.png"
+
+[params.sidebar.author]
+    name = "矢崎裕一／Yuichi Yazaki"
+    image = "img/avatar.png"
+    bio = "株式会社ビジネス・アーキテクツにてユーザー・インターフェイス・デザイナーおよびアート・ディレクターを7年間経験後、独立。企業や教育機関での講義活動、ウェブサイトVisualizing.JPにおける情報発信、コミュニティData Visualization Japanにおけるコミュニティ活動など、データ可視化の実践と普及に関するさまざまな活動をおこなっている。共著書に『RESASの教科書』(日経BP、2016)がある。千葉工業大学デザイン科学修士修了。データ・ビジュアライゼーション・ジャパン発起人/Yahoo!ニュース・エキスパート。"
 
 [params.article]
   math = false
@@ -58,13 +67,13 @@ enableRobotsTXT = true
   type = "toc"
 
 [params.opengraph.twitter]
-  site = ""
-  card = "summary_large_image"
+  site = "@visualizing_jp"
+  card = "summary"
 
 [params.defaultImage.opengraph]
-  enabled = false
-  local = false
-  src = ""
+  enabled = true
+  local = true
+  src = "img/avatar.png"
 
 [params.colorScheme]
   toggle = false
