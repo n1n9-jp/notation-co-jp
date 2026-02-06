@@ -10,7 +10,7 @@ body {
 }
 
 /* Force wrapping for the tile list to avoid horizontal scroll */
-.article-list--tile {
+.home-list .article-list--tile {
   flex-wrap: wrap !important;
   overflow-x: visible !important;
 }

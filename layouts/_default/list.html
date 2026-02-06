@@ -66,9 +66,9 @@
 
 {{/* List only pages that are not a subsection */}}
 {{ $paginator := .Paginate $pages }}
-<section class="article-list--grid">
+<section class="article-list--compact">
     {{ range $paginator.Pages }}
-    {{ partial "article-list/tile" (dict "context" . "size" "500x300" "Type" "section") }}
+    {{ partial "article-list/compact" . }}
     {{ end }}
 </section>
 
