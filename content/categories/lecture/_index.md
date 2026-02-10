@@ -1,6 +1,6 @@
 ---
 title: "研修"
-description: "Lecture related posts"
+description: "研修についての実績記事"
 slug: "lecture"
 style:
     background: "#2a9d8f"

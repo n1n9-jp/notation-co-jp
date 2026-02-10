@@ -1,6 +1,6 @@
 ---
 title: "シビックテック"
-description: "Civic Tech related posts"
+description: "シビックテックについての実績記事"
 slug: "civictech"
 style:
     background: "#e76f51"

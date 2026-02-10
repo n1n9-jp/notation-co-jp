@@ -1,6 +1,6 @@
 ---
 title: "報道"
-description: "Journalism related posts"
+description: "報道についての実績記事"
 slug: "journalism"
 style:
     background: "#e76f51"

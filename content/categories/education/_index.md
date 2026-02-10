@@ -1,6 +1,6 @@
 ---
 title: "教育"
-description: "Education related posts"
+description: "教育についての実績記事"
 slug: "education"
 style:
     background: "#2a9d8f"
