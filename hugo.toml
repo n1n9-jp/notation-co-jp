@@ -124,13 +124,19 @@ enableRobotsTXT = true
   identifier = "civictech"
   name = "シビックテック"
   url = "/categories/civictech/"
-  weight = 80
+  weight = 90
+
+[[menu.main]]
+  identifier = "codefor"
+  name = "Code for X"
+  url = "/categories/codefor/"
+  weight = 95
 
 [[menu.main]]
   identifier = "journalism"
   name = "報道"
   url = "/categories/journalism/"
-  weight = 90
+  weight = 80
 
 [related]
   includeNewer = true
