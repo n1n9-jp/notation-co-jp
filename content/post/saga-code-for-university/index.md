@@ -4,10 +4,9 @@ title = "Code for Saga×佐賀大学「データの見える化による地域�
 slug = "saga-code-for-university"
 date = "2016-10-28"
 categories = [
-    "civictech"
+    "codefor"
 ]
 tags = [
-    "講演"
 ]
 image = "images/DSCN0268-800x600.jpg"
 +++

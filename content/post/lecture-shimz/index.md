@@ -2,13 +2,13 @@
 author = "Yuichi Yazaki"
 title = "【研修実績】清水建設株式会社 研究部門 講義"
 slug = "lecture-shimz"
-date = "2025-02-26"
+date = "2015-10-05"
 categories = [
     "lecture"
 ]
 tags = [
 ]
-image = "images/cover_jma.png"
+image = "images/thumb_ph_vizjp.png"
 +++
 
 当社の矢崎裕一が、清水建設株式会社の研究部門向けに、データの活用とデザインに関する講義を実施いたしました。

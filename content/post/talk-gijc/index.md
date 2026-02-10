@@ -7,6 +7,7 @@ categories = [
     "talk"
 ]
 tags = [
+    "海外"
 ]
 image = "images/cover_gijc.png"
 +++

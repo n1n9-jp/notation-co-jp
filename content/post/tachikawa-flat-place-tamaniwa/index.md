@@ -7,7 +7,6 @@ categories = [
     "civictech"
 ]
 tags = [
-    "講演"
 ]
 image = "images/502423218_4106292172983525_7676767385615183506_n.jpg"
 +++

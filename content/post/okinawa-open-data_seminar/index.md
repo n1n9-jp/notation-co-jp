@@ -7,7 +7,6 @@ categories = [
     "civictech"
 ]
 tags = [
-    "講演"
 ]
 image = "images/okinawa-open-data_seminar_01.jpg"
 +++

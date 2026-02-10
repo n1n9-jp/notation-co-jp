@@ -7,10 +7,6 @@ categories = [
     "journalism"
 ]
 tags = [
-    "JCEJ",
-    "Media",
-    "Journalism",
-    "Book"
 ]
 description = "JCEJ活動10周年記念書籍「メディアイノベーターズ」の発刊告知。メディア激動の10年を切り拓いた25人の実践者による証言集に、矢崎裕一がインタビューおよびインタビューイとして参加しています。"
 image = "images/book.jpg"
@@ -62,5 +58,6 @@ image = "images/book.jpg"
 ## 関連リンク
 
 - [メディアイノベーターズ: 未来を拓くための記録](https://amzn.to/3LUz2uV)
+- [「メディアイノベーターズ 未来を拓くための記録」完成。Kindle版も準備中です - #JCEJ 活動日記](https://jcej.hatenablog.com/entry/2022/11/13/222507)
 - [日本ジャーナリスト教育センター（J... - JCEJ（Japan Center of Education for Journalists） | Facebook](https://www.facebook.com/JCEJinfo/posts/pfbid031Lw1BroMz5Wre5EhLK6kdMDkX8GXRgQPsra4fWRb7qjZzLx5qLySeGdaZqSYPno2l)
 

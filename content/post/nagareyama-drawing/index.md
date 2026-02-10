@@ -4,7 +4,7 @@ title = "千葉県流山市・Code for NAGAREYAMA「小学生向け 統計グラ
 slug = "nagareyama-drawing"
 date = "2017-07-29"
 categories = [
-    "civictech"
+    "codefor"
 ]
 tags = [
     "ワークショップ"

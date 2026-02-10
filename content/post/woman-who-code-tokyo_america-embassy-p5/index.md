@@ -7,7 +7,6 @@ categories = [
     "civictech"
 ]
 tags = [
-    "ワークショップ","シビック・テック"
 ]
 image = "images/cover.png"
 +++
