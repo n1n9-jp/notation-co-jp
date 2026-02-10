@@ -109,6 +109,12 @@ enableRobotsTXT = true
   weight = 60
 
 [[menu.main]]
+  identifier = "talk"
+  name = "講演"
+  url = "/categories/talk/"
+  weight = 65
+
+[[menu.main]]
   identifier = "education"
   name = "教育"
   url = "/categories/education/"
