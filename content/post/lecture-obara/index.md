@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "「尾原 和啓 ITビジネスの原理実践編」にて講義"
+title = "【講演実績】尾原 和啓 ITビジネスの原理実践編にて講義"
 slug = "lecture-obara"
 date = "2024-03-08"
 categories = [

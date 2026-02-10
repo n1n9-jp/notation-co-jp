@@ -1,7 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "立命館大学ビジネススクール（大学院経営管理研究科）で講義"
-slug = "guest-ritsumei"
+slug = "lecture-ritsumei"
 date = "2025-11-03"
 categories = [
     "education"

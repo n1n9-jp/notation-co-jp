@@ -1,7 +1,7 @@
 +++
 author = "Yuichi Yazaki"
 title = "神山まるごと高専で講義"
-slug = "guest-kamiyama-marugoto"
+slug = "lecture-kamiyama-marugoto"
 date = "2025-07-29"
 categories = [
     "education"
