@@ -6,6 +6,10 @@ defaultContentLanguage = "ja"
 hasCJKLanguage = true
 enableRobotsTXT = true
 
+[services]
+  [services.googleAnalytics]
+    ID = "G-7JHDWKH526"
+
 [minify]
   disableXML = true
   minifyOutput = true
