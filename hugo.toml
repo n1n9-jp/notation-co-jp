@@ -92,7 +92,7 @@ enableRobotsTXT = true
 
 [[menu.main]]
   identifier = "posts"
-  name = "Posts"
+  name = "トップ"
   url = "/"
   weight = 10
 
