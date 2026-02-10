@@ -46,7 +46,7 @@ image = "images/cover_fan1.png"
 
 ## 登壇内容
 
-T.B.D.
+{{< speakerdeck 881ec7ef992d4345860234c27fae647a >}}
 
 
 ## 関連リンク
