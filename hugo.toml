@@ -28,9 +28,9 @@ enableRobotsTXT = true
   lastUpdated = "2006-01-02 15:04 MST"
 
 [params.sidebar]
-  emoji = ":)"
-  subtitle = "Activities from Notation Co., Ltd."
-  description = "Company updates and product notes."
+  emoji = "📊"
+  subtitle = "合同会社ノーテーション／ヤザキユウイチの活動紹介サイトです"
+  description = "データ可視化は表現伝達と課題解決の交差点として、世の中に新しい記法を提供します。"
 
 [params.sidebar.avatar]
   enabled = true
@@ -98,7 +98,7 @@ enableRobotsTXT = true
 
 [[menu.main]]
   identifier = "about"
-  name = "About"
+  name = "ヤザキユウイチについて"
   url = "/about/"
   weight = 20
 
