@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "沖縄県「データの可視化～データが分かれば見えてくる～」ワークショップ"
+title = "【沖縄県】「データの可視化～データが分かれば見えてくる～」ワークショップ"
 slug = "okinawa-open-data_seminar"
 date = "2023-02-20"
 categories = [

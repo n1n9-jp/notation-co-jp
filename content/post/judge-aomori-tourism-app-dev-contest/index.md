@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "「青森観光アプリ開発コンテスト」審査員"
+title = "【青森県】「青森観光アプリ開発コンテスト」審査員"
 slug = "judge-aomori-tourism-app-dev-contest"
 date = "2016-10-04"
 categories = [

@@ -1,7 +1,7 @@
 +++
 author = "Yuichi Yazaki"
-title = "千葉県流山市・Code for NAGAREYAMA「小学生向け 統計グラフを描くワークショップ」"
-slug = "nagareyama-drawing"
+title = "【千葉県流山市】Code for NAGAREYAMA「小学生向け 統計グラフを描くワークショップ」"
+slug = "code-for-nagareyama-drawing"
 date = "2017-07-29"
 categories = [
     "codefor"

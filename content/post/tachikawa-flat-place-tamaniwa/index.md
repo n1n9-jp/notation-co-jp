@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "東京都立川市／第16回Flat Placeたまにわ「触れる可視化〜データビジュアライゼーションとは何か〜」"
+title = "【東京都立川市】第16回Flat Placeたまにわ「触れる可視化〜データビジュアライゼーションとは何か〜」"
 slug = "tachikawa-flat-place-tamaniwa"
 date = "2017-01-13"
 categories = [

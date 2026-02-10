@@ -1,7 +1,7 @@
 +++
 author = "Yuichi Yazaki"
-title = "Code for Saga×佐賀大学「データの見える化による地域課題解決ワークショップ」"
-slug = "saga-code-for-university"
+title = "【佐賀】Code for Saga×佐賀大学「データの見える化による地域課題解決ワークショップ」"
+slug = "code-for-saga-university"
 date = "2016-10-28"
 categories = [
     "codefor"

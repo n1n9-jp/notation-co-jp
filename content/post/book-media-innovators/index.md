@@ -7,6 +7,7 @@ categories = [
     "journalism"
 ]
 tags = [
+    "執筆"
 ]
 description = "JCEJ活動10周年記念書籍「メディアイノベーターズ」の発刊告知。メディア激動の10年を切り拓いた25人の実践者による証言集に、矢崎裕一がインタビューおよびインタビューイとして参加しています。"
 image = "images/book.jpg"
