@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "【登壇実績】Global Investigative Journalism Conference 2019 への登壇"
+title = "【Global Investigative Journalism Conference 2019 への登壇"
 slug = "talk-gijc"
 date = "2019-09-28"
 categories = [

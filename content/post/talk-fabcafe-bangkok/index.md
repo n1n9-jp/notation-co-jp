@@ -1,6 +1,6 @@
 +++
 author = "Yuichi Yazaki"
-title = "【登壇実績】FabCafe Bangkok オンラインイベントへの登壇"
+title = "FabCafe Bangkok オンラインイベントへの登壇"
 slug = "talk-fabcafe-bangkok"
 date = "2023-04-29"
 categories = [
