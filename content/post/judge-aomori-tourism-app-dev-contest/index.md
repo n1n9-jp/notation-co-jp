@@ -1,13 +1,13 @@
 +++
 author = "Yuichi Yazaki"
 title = "「青森観光アプリ開発コンテスト」審査員"
-slug = "aomori-tourism-app-dev-contest"
+slug = "judge-aomori-tourism-app-dev-contest"
 date = "2016-10-04"
 categories = [
     "civictech"
 ]
 tags = [
-    "ハッカソン"
+    "ハッカソン","審査員"
 ]
 image = "images/event/468451158_10160661943153201_810002551114112023_n.jpg"
 +++
