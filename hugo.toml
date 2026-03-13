@@ -142,6 +142,12 @@ enableRobotsTXT = true
   url = "/categories/journalism/"
   weight = 80
 
+[[menu.main]]
+  identifier = "inquiry"
+  name = "お問い合わせ"
+  url = "https://forms.gle/VoK2d2BCKyHQaD6y9"
+  weight = 99
+
 [related]
   includeNewer = true
   threshold = 60
