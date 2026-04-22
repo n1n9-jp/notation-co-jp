@@ -34,7 +34,7 @@ enableRobotsTXT = true
 
 [params.sidebar]
   emoji = ""
-  subtitle = "合同会社ノーテーション／ヤザキユウイチの活動紹介サイトです"
+  subtitle = "合同会社ノーテーション／矢崎裕一の活動紹介サイトです"
   description = "データ可視化は表現伝達と課題解決の交差点として、世の中に新しい記法を提供します。"
 
 [params.sidebar.avatar]
@@ -103,7 +103,7 @@ enableRobotsTXT = true
 
 [[menu.main]]
   identifier = "about"
-  name = "ヤザキユウイチについて"
+  name = "矢崎裕一について"
   url = "/about/"
   weight = 20
 
