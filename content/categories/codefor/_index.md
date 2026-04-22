@@ -1,8 +1,9 @@
----
-title: "Code for X"
-description: "Code for関連の活動実績"
-slug: "codefor"
-style:
-    background: "#2a9d8f"
-    color: "#fff"
----
++++
+title = "Code for X の活動記録(過去)"
+description = "矢崎裕一がかつて参加した Code for X コミュニティでの活動記録。2010年代の市民エンジニアによる地域課題解決プロジェクトへの参加記録。"
+slug = "codefor"
++++
+
+矢崎裕一(合同会社ノーテーション)がかつて参加した Code for X(Code for Japan ファミリー)のコミュニティ活動の記録をまとめています。2010年代に市民エンジニア・デザイナーが地域課題に取り組むアイデアソンやハッカソンに参加していました。
+
+**なお、現在は Code for X 関連の活動は行っていません。**過去の記録としてアーカイブする目的でこのページを公開しています。
