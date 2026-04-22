@@ -109,61 +109,83 @@ enableRobotsTXT = true
 [pagination]
   pagerSize = 15
 
-[menu]
-
-[[menu.main]]
+[[languages.ja.menu.main]]
   identifier = "posts"
   name = "トップ"
   url = "/"
   weight = 10
 
-[[menu.main]]
+[[languages.ja.menu.main]]
   identifier = "about"
   name = "矢崎裕一について"
   url = "/about/"
   weight = 20
 
-[[menu.main]]
+[[languages.ja.menu.main]]
   identifier = "lecture"
   name = "研修"
   url = "/categories/lecture/"
   weight = 60
 
-[[menu.main]]
+[[languages.ja.menu.main]]
   identifier = "talk"
   name = "講演"
   url = "/categories/talk/"
   weight = 65
 
-[[menu.main]]
+[[languages.ja.menu.main]]
   identifier = "education"
   name = "教育"
   url = "/categories/education/"
   weight = 70
 
-[[menu.main]]
-  identifier = "civictech"
-  name = "シビックテック"
-  url = "/categories/civictech/"
-  weight = 90
-
-[[menu.main]]
-  identifier = "codefor"
-  name = "Code for X"
-  url = "/categories/codefor/"
-  weight = 95
-
-[[menu.main]]
+[[languages.ja.menu.main]]
   identifier = "journalism"
   name = "報道"
   url = "/categories/journalism/"
   weight = 80
 
-[[menu.main]]
+[[languages.ja.menu.main]]
+  identifier = "civictech"
+  name = "シビックテック"
+  url = "/categories/civictech/"
+  weight = 90
+
+[[languages.ja.menu.main]]
+  identifier = "codefor"
+  name = "Code for X"
+  url = "/categories/codefor/"
+  weight = 95
+
+[[languages.ja.menu.main]]
   identifier = "inquiry"
   name = "お問い合わせ"
   url = "https://forms.gle/VoK2d2BCKyHQaD6y9"
   weight = 99
+
+[[languages.ja.menu.main]]
+  identifier = "english"
+  name = "English"
+  url = "/en/about/"
+  weight = 100
+
+[[languages.en.menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/en/about/"
+  weight = 10
+
+[[languages.en.menu.main]]
+  identifier = "contact"
+  name = "Contact"
+  url = "mailto:info@notation.co.jp"
+  weight = 20
+
+[[languages.en.menu.main]]
+  identifier = "japanese"
+  name = "日本語"
+  url = "/"
+  weight = 30
 
 [related]
   includeNewer = true
