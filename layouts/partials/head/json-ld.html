@@ -1,5 +1,8 @@
 {{ if .IsPage }}
 {{ $author := .Site.Params.sidebar.author }}
+{{ $isEn := eq .Language.Lang "en" }}
+{{ $authorAlternate := cond $isEn (slice "矢崎裕一" "ヤザキユウイチ") (slice "ヤザキユウイチ" "Yuichi Yazaki") }}
+{{ $authorUrl := cond $isEn "https://notation.co.jp/en/about/" "https://notation.co.jp/about/" }}
 <script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -17,10 +20,10 @@
     "author": {
         "@type": "Person",
         "name": {{ $author.name }},
-        "alternateName": ["ヤザキユウイチ", "Yuichi Yazaki"],
+        "alternateName": {{ $authorAlternate | jsonify | safeJS }},
         "image": {{ $author.image | absURL }},
         "description": {{ $author.bio }},
-        "url": "https://notation.co.jp/about/"
+        "url": {{ $authorUrl }}
     },
     "publisher": {
         "@type": "Organization",

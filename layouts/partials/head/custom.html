@@ -1,15 +1,16 @@
-{{/* Organization: 全ページ共通で出力 */}}
+{{/* Organization: 全ページ共通で出力（言語に応じてname/founderを切り替え） */}}
+{{ $isEn := eq .Language.Lang "en" }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "合同会社ノーテーション",
-  "alternateName": ["Notation LLC", "Notation Co. JP"],
+  "name": {{ if $isEn }}"Notation LLC"{{ else }}"合同会社ノーテーション"{{ end }},
+  "alternateName": {{ if $isEn }}["合同会社ノーテーション", "Notation Co. JP"]{{ else }}["Notation LLC", "Notation Co. JP"]{{ end }},
   "url": "https://notation.co.jp/",
   "logo": "https://notation.co.jp/img/logo.png",
   "founder": {
     "@type": "Person",
-    "name": "矢崎裕一"
+    "name": {{ if $isEn }}"Yuichi Yazaki"{{ else }}"矢崎裕一"{{ end }}
   },
   "sameAs": [
     "https://visualizing.jp/",

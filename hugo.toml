@@ -21,6 +21,18 @@ enableRobotsTXT = true
     title = "Notation LLC"
     disableKinds = ["taxonomy", "term", "section", "rss"]
 
+    [languages.en.params]
+      description = "Notation LLC — data visualization training, public speaking, writing, and education, led by Yuichi Yazaki."
+
+    [languages.en.params.sidebar]
+      subtitle = "Notation LLC — Yuichi Yazaki's profile and activity archive."
+      description = "Data visualization sits at the intersection of expression and problem-solving, offering a new notation for the world."
+
+    [languages.en.params.sidebar.author]
+      name = "Yuichi Yazaki"
+      image = "img/logo.png"
+      bio = "Founder of Notation LLC. A data visualization specialist engaged in practice, education, and outreach. After seven years as a user interface designer and art director at Business Architects Inc., he became independent. He teaches at companies and educational institutions, publishes through Visualizing.JP, and runs community activities via Data Visualization Japan. Sole author of *The Complete Guide to the Fundamentals of Data Visualization* and co-author of *The RESAS Textbook* (Nikkei BP, 2016). Master of Design Science, Chiba Institute of Technology. Founder of Data Visualization Japan and Yahoo! News Expert."
+
 [module]
   [[module.mounts]]
     source = "content"
