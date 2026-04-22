@@ -13,14 +13,36 @@ enableRobotsTXT = true
     languageCode = "ja-jp"
     weight = 1
     title = "合同会社ノーテーション"
-    contentDir = "content"
 
   [languages.en]
     languageName = "English"
     languageCode = "en-us"
     weight = 2
     title = "Notation LLC"
-    contentDir = "content/en"
+    disableKinds = ["taxonomy", "term", "section", "rss"]
+
+[module]
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+    lang = "ja"
+    excludeFiles = "en/**"
+  [[module.mounts]]
+    source = "content/en"
+    target = "content"
+    lang = "en"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+  [[module.mounts]]
+    source = "i18n"
+    target = "i18n"
 
 [services]
   [services.googleAnalytics]

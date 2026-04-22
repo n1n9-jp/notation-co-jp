@@ -1,6 +1,7 @@
 +++
 title = "About Yuichi Yazaki"
 description = "Yuichi Yazaki is a data visualization specialist and founder of Notation LLC. Based in Tokyo, he provides corporate training, public speaking, education, and publishing on data visualization."
+translationKey = "about"
 +++
 
 ## About
