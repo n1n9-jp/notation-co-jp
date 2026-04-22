@@ -1,0 +1,105 @@
+{{/* Organization: 全ページ共通で出力 */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "合同会社ノーテーション",
+  "alternateName": ["Notation LLC", "Notation Co. JP"],
+  "url": "https://notation.co.jp/",
+  "logo": "https://notation.co.jp/img/logo_hu_b0db65fe2fbe32a3.png",
+  "founder": {
+    "@type": "Person",
+    "name": "矢崎裕一"
+  },
+  "sameAs": [
+    "https://visualizing.jp/",
+    "https://www.dataviz.jp/",
+    "https://data-viz-lectures.com/",
+    "https://all-about-book.visualizing.jp/",
+    "https://explorable-explanations.com/",
+    "https://structure-and-representation.com/",
+    "https://www.youtube.com/@datavisualizationjapan",
+    "https://www.youtube.com/@visualizingjp",
+    "https://yuichi-yazaki.myportfolio.com/"
+  ]
+}
+</script>
+
+{{/* Person: aboutページのみ出力 */}}
+{{ if eq .RelPermalink "/about/" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "矢崎裕一",
+  "alternateName": ["ヤザキユウイチ", "Yuichi Yazaki", "やざき ゆういち"],
+  "givenName": "裕一",
+  "familyName": "矢崎",
+  "jobTitle": "データ可視化専門家",
+  "description": "合同会社ノーテーション代表。データ可視化の実践、教育、普及活動に従事。",
+  "url": "https://notation.co.jp/about/",
+  "image": "https://notation.co.jp/img/logo_hu_b0db65fe2fbe32a3.png",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "合同会社ノーテーション",
+    "url": "https://notation.co.jp/"
+  },
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "千葉工業大学"
+  },
+  "knowsAbout": [
+    "データ可視化",
+    "Data Visualization",
+    "インフォグラフィックス",
+    "D3.js",
+    "情報デザイン"
+  ],
+  "sameAs": [
+    "https://visualizing.jp/",
+    "https://www.dataviz.jp/",
+    "https://data-viz-lectures.com/",
+    "https://all-about-book.visualizing.jp/",
+    "https://www.youtube.com/@datavisualizationjapan",
+    "https://www.youtube.com/@visualizingjp",
+    "https://yuichi-yazaki.myportfolio.com/",
+    "https://structure-and-representation.com/"
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": "データ可視化の基本が全部わかる本",
+  "author": {
+    "@type": "Person",
+    "name": "矢崎裕一",
+    "alternateName": "Yuichi Yazaki"
+  },
+  "inLanguage": "ja",
+  "url": "https://all-about-book.visualizing.jp/",
+  "image": "https://notation.co.jp/img/cover_book_complete.jpg"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": "RESASの教科書",
+  "author": {
+    "@type": "Person",
+    "name": "矢崎裕一",
+    "alternateName": "Yuichi Yazaki"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "日経BP"
+  },
+  "datePublished": "2016",
+  "inLanguage": "ja"
+}
+</script>
+{{ end }}

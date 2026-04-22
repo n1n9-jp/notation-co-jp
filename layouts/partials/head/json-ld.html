@@ -6,6 +6,7 @@
     "@type": "Article",
     "headline": {{ .Title }},
     "datePublished": {{ .Date.Format "2006-01-02T15:04:05Z07:00" }},
+    "dateModified": {{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }},
     "image": [
         {{ if .Params.image }}
         {{ .Params.image | absURL }}
@@ -16,8 +17,10 @@
     "author": {
         "@type": "Person",
         "name": {{ $author.name }},
+        "alternateName": ["ヤザキユウイチ", "Yuichi Yazaki"],
         "image": {{ $author.image | absURL }},
-        "description": {{ $author.bio }}
+        "description": {{ $author.bio }},
+        "url": "https://notation.co.jp/about/"
     },
     "publisher": {
         "@type": "Organization",
@@ -49,13 +52,21 @@
         "name": {{ .Parent.Title }},
         "item": {{ .Parent.Permalink }}
     }
-    {{ end }}
     ,{
         "@type": "ListItem",
         "position": 3,
         "name": {{ .Title }},
         "item": {{ .Permalink }}
-    }]
+    }
+    {{ else }}
+    ,{
+        "@type": "ListItem",
+        "position": 2,
+        "name": {{ .Title }},
+        "item": {{ .Permalink }}
+    }
+    {{ end }}
+    ]
 }
 </script>
 {{ end }}
