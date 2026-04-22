@@ -1,12 +1,11 @@
-baseURL = "/"
+baseURL = "https://notation.co.jp/"
 languageCode = "ja-jp"
 defaultContentLanguage = "ja"
+defaultContentLanguageInSubdir = false
 title = "合同会社ノーテーション"
 theme = "stack"
 hasCJKLanguage = true
 enableRobotsTXT = true
-DefaultContentLanguage = "ja"
-DefaultContentLanguageInSubdir = false
 
 [languages]
   [languages.ja]
@@ -14,7 +13,8 @@ DefaultContentLanguageInSubdir = false
     languageCode = "ja-jp"
     weight = 1
     title = "合同会社ノーテーション"
-    
+    contentDir = "content"
+
   [languages.en]
     languageName = "English"
     languageCode = "en-us"
