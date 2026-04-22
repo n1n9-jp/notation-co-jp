@@ -40,11 +40,11 @@ image = "images/presentation/IMG_5135.jpg"
 
 ### 子どもたちの発表
 
-![](images/presentation/IMG_5135.jpg)
-![](images/presentation/data-visualization_otaka016.JPG)
-![](images/presentation/data_visualization_otaka004.jpg)
-![](images/presentation/IMG_5051.jpg)
-![](images/presentation/IMG_5064.jpg)
+![流山市でのデータビジュアライゼーションワークショップで作品を発表する小学生](images/presentation/IMG_5135.jpg)
+![小学生が描いた統計グラフをワークショップで発表する様子](images/presentation/data-visualization_otaka016.JPG)
+![親子参加のオープンデータワークショップで統計グラフを制作する子ども](images/presentation/data_visualization_otaka004.jpg)
+![Code for NAGAREYAMAのワークショップに参加した子どもたちの発表風景](images/presentation/IMG_5051.jpg)
+![流山市主催データビジュアライゼーション講座の会場の様子](images/presentation/IMG_5064.jpg)
 
 
 

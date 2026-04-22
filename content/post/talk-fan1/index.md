@@ -16,8 +16,8 @@ image = "images/cover_fan1.png"
 
 <!--more-->
 
-![](images/fan1-place-01.jpg)
-![](images/fan1-place-02.jpg)
+![FAN1カンファレンス会場となったフィリピン・ボホール島の風景](images/fan1-place-01.jpg)
+![FabLab Asia Network 1st Conference開催地ボホール島の様子](images/fan1-place-02.jpg)
 
 
 本カンファレンスは、アジア各国のFabLab(ファブラボ)コミュニティが一堂に会し、デジタルファブリケーション技術の普及と、ものづくりを通じた地域課題解決の可能性を議論する場として開催されました。
@@ -35,11 +35,11 @@ image = "images/cover_fan1.png"
 
 ## 制作物
 
-![](images/talk-fan1_01.jpg)
-![](images/talk-fan1_02.jpg)
+![FabLabで制作した巨大シャボン玉飛ばし器のプロトタイピング](images/talk-fan1_01.jpg)
+![デジタルファブリケーションによる巨大シャボン玉飛ばし器の制作工程](images/talk-fan1_02.jpg)
 
-![](images/talk-fan1_03.jpg)
-![](images/talk-fan1_04.jpg)
+![完成した巨大シャボン玉飛ばし器の実演の様子](images/talk-fan1_03.jpg)
+![Lightning Talkセッションでの成果発表の様子](images/talk-fan1_04.jpg)
 
 
 

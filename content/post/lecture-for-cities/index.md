@@ -15,9 +15,9 @@ image = "images/cover.png"
 
 <!--more-->
 
-![](images/page_01.png)
+![Urbanist Camp Tokyo 2024「Emotional City」プログラム紹介ページ](images/page_01.png)
 
-![](images/page_02.png) 
+![for CitiesとYAUによる都市の感情価値を問い直すプログラムの告知資料](images/page_02.png) 
 
 このプログラムでは20名の参加者が、講義、フィールドワーク、ディスカッションを通じて「都市の感情」に向き合い、独自の Emotional City Guide や感情を体験するツアー Emotional City Tour を制作しました。さまざまな感覚（嗅覚・聴覚・触覚）を活用した都市の再発見や、違和感を可視化する試みなど、感情を軸にした都市体験のデザインを実践的に探究しました。 ￼
 

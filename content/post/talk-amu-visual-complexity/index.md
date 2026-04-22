@@ -22,7 +22,7 @@ image = "images/cover_amu-visual-complexity.jpg"
 - **概要:** 情報デザインやデータビジュアライゼーションの国際的な事例を集めた書籍『ビジュアル・コンプレキシティ』をテーマに、可視化が持つ可能性と限界について議論を行いました。
 
 
-![](images/cover_amu-visual-complexity.jpg)
+![青山amuで開催された書籍「ビジュアル・コンプレキシティ」刊行記念イベント「可視化可不可」のビジュアル](images/cover_amu-visual-complexity.jpg)
 
 ## 関連リンク
 

@@ -18,7 +18,7 @@ image = "images/lecture-ryukyu-simpo_01.jpg"
 
 <!--more-->
 
-![](images/lecture-ryukyu-simpo_02.jpg)
+![琉球新報社でのデータジャーナリズム勉強会の様子](images/lecture-ryukyu-simpo_02.jpg)
 
-![](images/lecture-ryukyu-simpo_03.jpg)
+![琉球新報社の記者向けに実施したデータ可視化講義の様子](images/lecture-ryukyu-simpo_03.jpg)
 

@@ -15,7 +15,7 @@ image = "images/cover_taito-ideathon.jpeg"
 
 <!--more-->
 
-![](images/taito-ideathon_01.jpeg)
+![台東区のオープンデータを活用した「たいとうアイデアソン2022」告知ビジュアル](images/taito-ideathon_01.jpeg)
 
 「たいとうアイデアソン2022」は、**地域防災**および**中小企業の課題を解決するデジタルサービス**をテーマに掲げ、2022年8月28日と9月11日の両日（各日13時から17時）に**Zoomを利用したWeb会議形式**で開催されました。
 

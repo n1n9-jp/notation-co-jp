@@ -17,7 +17,7 @@ image = "images/cover_nanto-urbandata.jpg"
 
 <!--more-->
 
-![](images/nanto-urbandata_00.jpg)
+![アーバンデータチャレンジ2016＠南砺 公共施設アイデアソンの会場風景](images/nanto-urbandata_00.jpg)
 
 ## 講演内容
 
@@ -32,8 +32,8 @@ image = "images/cover_nanto-urbandata.jpg"
   * **日時：** 平成28年8月20日(土)
   * **場所：** 南砺クリエータープラザ
 
-![](images/nanto-urbandata_01.jpg)
-![](images/nanto-urbandata_02.jpg)
+![南砺市クリエータープラザで行われた公共施設アイデアソンでの講演](images/nanto-urbandata_01.jpg)
+![データビジュアライゼーションによる合意形成をテーマにした南砺市での講演](images/nanto-urbandata_02.jpg)
 
 ## 関連リンク
 

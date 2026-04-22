@@ -22,14 +22,14 @@ image = "images/cover_lithuania.png"
 この登壇は、日本とバルト三国間のデザインを通じた文化交流の一助となりました。
 
 
-![](images/talk-lithuania_01.jpg)
-![](images/talk-lithuania_02.jpg)
+![JAPAN-BALTIC DESIGN WEEKのリトアニア会場の様子](images/talk-lithuania_01.jpg)
+![バルト三国で開催された国際デザインカンファレンスのプレゼン会場](images/talk-lithuania_02.jpg)
 
-![](images/talk-lithuania_03.jpg)
-![](images/talk-lithuania_04.jpg)
+![「創造都市横浜」をテーマに登壇するJAPAN-BALTIC DESIGN WEEKでのプレゼンテーション](images/talk-lithuania_03.jpg)
+![横浜発のデザイン事例を紹介するリトアニアでの講演の様子](images/talk-lithuania_04.jpg)
 
-![](images/talk-lithuania_05.jpg)
-![](images/talk-lithuania_06.jpg)
+![JAPAN-BALTIC DESIGN WEEK参加者との交流の様子](images/talk-lithuania_05.jpg)
+![日本とバルト三国のデザイナーによる文化交流イベント風景](images/talk-lithuania_06.jpg)
 
 ## 関連リンク
 

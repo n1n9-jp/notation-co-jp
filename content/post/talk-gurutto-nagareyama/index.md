@@ -18,9 +18,9 @@ image = "images/cover_gurutto-nagareyama.png"
 
 この講座は、流山市の市民の方々にもっとオープンデータの利用方法を知ってもらい、地域への関心を深めてもらうことを目的に実施されました。
 
-![](images/opendate01.jpg)
+![流山エルズで開催されたぐるっと流山オープンデータ利用講座での講演の様子](images/opendate01.jpg)
 
-![](images/opendate03.jpg)
+![データビジュアライゼーションで地域の現状を紹介するオープンデータ講座](images/opendate03.jpg)
 
 
 **主な講演内容**

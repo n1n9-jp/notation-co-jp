@@ -15,13 +15,13 @@ image = "images/cover.png"
 
 <!--more-->
 
-![](images/cover_01.png)
-![](images/cover_02.png)
+![東京藝術大学「先端知を識る 異分野横断オムニバス講座」告知ビジュアル](images/cover_01.png)
+![藝大リベラルアーツガイド2025で紹介されたデータ可視化講座の告知](images/cover_02.png)
 
 
-![](images/thumb_01.jpg)
+![東京藝術大学で実施したデータビジュアライゼーション講義の様子](images/thumb_01.jpg)
 
-![](images/thumb_02.png)
+![藝大オムニバス講座で使用したデータ可視化の講義スライド](images/thumb_02.png)
 
 
 ## 関連リンク

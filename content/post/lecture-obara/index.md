@@ -15,7 +15,7 @@ image = "images/cover.jpeg"
 
 <!--more-->
 
-![](images/screenshot.png)
+![尾原和啓氏の私塾「ITビジネスの原理実践編」でのオンライン講義スクリーンショット](images/screenshot.png)
 
 有料コンテンツにつき、コンテンツそのものへのリンクは非掲載です。
 

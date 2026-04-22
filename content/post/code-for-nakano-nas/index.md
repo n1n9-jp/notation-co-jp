@@ -15,8 +15,8 @@ image = "images/cover_nakano-nas.jpeg"
 
 <!--more-->
 
-![](images/nakano-nas_01.jpg)
-![](images/nakano-nas_02.jpg)
+![中野区役所で開催された「区民と行政のためのオープンデータ活用」勉強会の講演](images/nakano-nas_01.jpg)
+![オープンデータの可視化とその手段をテーマにしたCode for 中野の勉強会](images/nakano-nas_02.jpg)
 
 
 この回のテーマは、「**オープンデータの可視化とその手段**」とし、地域課題の発見・解決に向けたオープンデータの効果的な活用方法について解説しました。
@@ -35,8 +35,8 @@ image = "images/cover_nakano-nas.jpeg"
 - **共催**: 中野区役所（NAS）、Code for 中野
 
 
-![](images/nakano-nas_03.jpg) 
-![](images/nakano-nas_04.jpg)
+![中野区のオープンデータを用いたデータビジュアライゼーション実践例を紹介](images/nakano-nas_03.jpg) 
+![参加者との質疑応答を行う中野区オープンデータ勉強会の様子](images/nakano-nas_04.jpg)
 
 ## 関連リンク
 

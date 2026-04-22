@@ -16,7 +16,7 @@ image = "images/cover_gijc.png"
 
 <!--more-->
 
-![](images/talk-gijc_01.jpg)
+![ハンブルクのGlobal Investigative Journalism Conference 2019で行政事業レビュー可視化サイトJUDGIT!を発表する様子](images/talk-gijc_01.jpg)
 
 - **イベント名:** Global Investigative Journalism Conference 2019
 - **開催日:** 2019年9月28日
