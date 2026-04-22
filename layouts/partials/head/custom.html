@@ -20,10 +20,23 @@
     "https://structure-and-representation.com/",
     "https://www.youtube.com/@datavisualizationjapan",
     "https://www.youtube.com/@visualizingjp",
-    "https://yuichi-yazaki.myportfolio.com/"
+    "https://yuichi-yazaki.myportfolio.com/",
+    "https://github.com/n1n9-jp",
+    "https://x.com/yuichy02"
   ]
 }
 </script>
+
+{{ if eq .RelPermalink "/about/" }}
+<link rel="alternate" hreflang="ja" href="https://notation.co.jp/about/">
+<link rel="alternate" hreflang="en" href="https://notation.co.jp/en/about/">
+<link rel="alternate" hreflang="x-default" href="https://notation.co.jp/about/">
+{{ end }}
+{{ if eq .RelPermalink "/en/about/" }}
+<link rel="alternate" hreflang="ja" href="https://notation.co.jp/about/">
+<link rel="alternate" hreflang="en" href="https://notation.co.jp/en/about/">
+<link rel="alternate" hreflang="x-default" href="https://notation.co.jp/about/">
+{{ end }}
 
 {{/* Person: aboutページのみ出力 */}}
 {{ if eq .RelPermalink "/about/" }}
@@ -63,7 +76,9 @@
     "https://www.youtube.com/@datavisualizationjapan",
     "https://www.youtube.com/@visualizingjp",
     "https://yuichi-yazaki.myportfolio.com/",
-    "https://structure-and-representation.com/"
+    "https://structure-and-representation.com/",
+    "https://github.com/n1n9-jp",
+    "https://x.com/yuichy02"
   ]
 }
 </script>
