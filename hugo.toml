@@ -1,10 +1,26 @@
 baseURL = "/"
-languageCode = "ja"
+languageCode = "ja-jp"
+defaultContentLanguage = "ja"
 title = "合同会社ノーテーション"
 theme = "stack"
-defaultContentLanguage = "ja"
 hasCJKLanguage = true
 enableRobotsTXT = true
+DefaultContentLanguage = "ja"
+DefaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.ja]
+    languageName = "日本語"
+    languageCode = "ja-jp"
+    weight = 1
+    title = "合同会社ノーテーション"
+    
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-us"
+    weight = 2
+    title = "Notation LLC"
+    contentDir = "content/en"
 
 [services]
   [services.googleAnalytics]
