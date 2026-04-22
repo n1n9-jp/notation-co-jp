@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "ja"
-title = "Notation Co. JP"
+title = "合同会社ノーテーション"
 theme = "stack"
 defaultContentLanguage = "ja"
 hasCJKLanguage = true
@@ -20,11 +20,12 @@ enableRobotsTXT = true
 
 [params]
   mainSections = ["post"]
+  description = "データ可視化の研修・講演・執筆・教育を通じて、表現伝達と課題解決の交差点に新しい記法を提供します。合同会社ノーテーション代表・矢崎裕一の活動紹介サイト。"
   featuredImageField = "image"
   rssFullContent = true
 
 [params.footer]
-  since = 2025
+  since = 2026
   customText = ""
 
 [params.dateFormat]
