@@ -210,6 +210,12 @@ vercel-live-feedback {
   margin-top: 30px !important;
 }
 
+/* Homepage Markdown content sits outside the article card, so set its
+   theme-aware foreground color explicitly. */
+.home-content {
+  color: var(--card-text-color-main);
+}
+
 /* Updated Homepage Tile Styles */
 .article-list--tile article {
   display: flex !important;

@@ -19,10 +19,14 @@ enableRobotsTXT = true
     languageCode = "en-us"
     weight = 2
     title = "Notation LLC"
-    disableKinds = ["taxonomy", "term", "section", "rss"]
 
     [languages.en.params]
       description = "Notation LLC — data visualization training, public speaking, writing, and education, led by Yuichi Yazaki."
+
+    [languages.en.params.author]
+      orcid = "https://orcid.org/0009-0005-2429-3279"
+      name = "Yuichi Yazaki"
+      profileURL = "https://visualizing.jp/profile/"
 
     [languages.en.params.sidebar]
       subtitle = "Notation LLC — Yuichi Yazaki's profile and activity archive."
@@ -37,12 +41,6 @@ enableRobotsTXT = true
   [[module.mounts]]
     source = "content"
     target = "content"
-    lang = "ja"
-    excludeFiles = "en/**"
-  [[module.mounts]]
-    source = "content/en"
-    target = "content"
-    lang = "en"
   [[module.mounts]]
     source = "assets"
     target = "assets"
@@ -155,12 +153,6 @@ enableRobotsTXT = true
   weight = 10
 
 [[languages.ja.menu.main]]
-  identifier = "about"
-  name = "矢崎裕一について"
-  url = "/about/"
-  weight = 20
-
-[[languages.ja.menu.main]]
   identifier = "lecture"
   name = "研修"
   url = "/categories/lecture/"
@@ -205,26 +197,62 @@ enableRobotsTXT = true
 [[languages.ja.menu.main]]
   identifier = "english"
   name = "English"
-  url = "/en/about/"
+  url = "/en/"
   weight = 100
 
 [[languages.en.menu.main]]
-  identifier = "about"
-  name = "About"
-  url = "/en/about/"
+  identifier = "posts"
+  name = "Home"
+  url = "/en/"
   weight = 10
+
+[[languages.en.menu.main]]
+  identifier = "lecture"
+  name = "Training"
+  url = "/en/categories/lecture/"
+  weight = 60
+
+[[languages.en.menu.main]]
+  identifier = "talk"
+  name = "Speaking"
+  url = "/en/categories/talk/"
+  weight = 65
+
+[[languages.en.menu.main]]
+  identifier = "education"
+  name = "Education"
+  url = "/en/categories/education/"
+  weight = 70
+
+[[languages.en.menu.main]]
+  identifier = "journalism"
+  name = "Journalism"
+  url = "/en/categories/journalism/"
+  weight = 80
+
+[[languages.en.menu.main]]
+  identifier = "civictech"
+  name = "Civic Tech"
+  url = "/en/categories/civictech/"
+  weight = 90
+
+[[languages.en.menu.main]]
+  identifier = "codefor"
+  name = "Code for X"
+  url = "/en/categories/codefor/"
+  weight = 95
 
 [[languages.en.menu.main]]
   identifier = "contact"
   name = "Contact"
-  url = "mailto:info@notation.co.jp"
-  weight = 20
+  url = "https://forms.gle/VoK2d2BCKyHQaD6y9"
+  weight = 99
 
 [[languages.en.menu.main]]
   identifier = "japanese"
   name = "日本語"
   url = "/"
-  weight = 30
+  weight = 100
 
 [related]
   includeNewer = true

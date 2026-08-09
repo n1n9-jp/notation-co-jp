@@ -9,11 +9,11 @@
 {{ end }}
 
 <article class="{{ if $image.exists }}has-image{{ end }} homepage-tile">
-    <a href="{{ .context.RelPermalink }}">
+    <a href="{{ default .context.RelPermalink .href }}">
 
         <div class="article-details">
             <h2 class="article-title">
-                {{- .context.Title -}}
+                {{- default .context.Title .title -}}
             </h2>
         </div>
 
@@ -43,7 +43,11 @@
         {{ end }}
 
         <div class="article-preview">
-            {{- .context.Summary | plainify | truncate 120 -}}
+            {{- with .description -}}
+                {{- . -}}
+            {{- else -}}
+                {{- .context.Summary | plainify | truncate 120 -}}
+            {{- end -}}
         </div>
     </a>
 </article>
