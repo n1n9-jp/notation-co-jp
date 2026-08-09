@@ -4,12 +4,14 @@
 {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": "https://notation.co.jp/#organization",
   "name": {{ if $isEn }}"Notation LLC"{{ else }}"合同会社ノーテーション"{{ end }},
   "alternateName": {{ if $isEn }}["合同会社ノーテーション", "Notation Co. JP"]{{ else }}["Notation LLC", "Notation Co. JP"]{{ end }},
   "url": "https://notation.co.jp/",
   "logo": "https://notation.co.jp/img/logo.png",
   "founder": {
     "@type": "Person",
+    "@id": "https://orcid.org/0009-0005-2429-3279",
     "name": {{ if $isEn }}"Yuichi Yazaki"{{ else }}"矢崎裕一"{{ end }}
   },
   "sameAs": [
@@ -45,6 +47,7 @@
 {
   "@context": "https://schema.org",
   "@type": "Person",
+  "@id": "https://orcid.org/0009-0005-2429-3279",
   "name": "矢崎裕一",
   "alternateName": ["ヤザキユウイチ", "Yuichi Yazaki", "やざき ゆういち"],
   "givenName": "裕一",
@@ -91,6 +94,7 @@
   "name": "データ可視化の基本が全部わかる本",
   "author": {
     "@type": "Person",
+    "@id": "https://orcid.org/0009-0005-2429-3279",
     "name": "矢崎裕一",
     "alternateName": "Yuichi Yazaki"
   },
@@ -107,6 +111,7 @@
   "name": "RESASの教科書",
   "author": {
     "@type": "Person",
+    "@id": "https://orcid.org/0009-0005-2429-3279",
     "name": "矢崎裕一",
     "alternateName": "Yuichi Yazaki"
   },
@@ -126,6 +131,7 @@
 {
   "@context": "https://schema.org",
   "@type": "Person",
+  "@id": "https://orcid.org/0009-0005-2429-3279",
   "name": "Yuichi Yazaki",
   "alternateName": ["矢崎裕一", "ヤザキユウイチ", "やざき ゆういち"],
   "givenName": "Yuichi",
@@ -165,3 +171,7 @@
 }
 </script>
 {{ end }}
+
+{{- if and (eq .Kind "page") (not .Date.IsZero) -}}
+  {{ partial "schema-article.html" . }}
+{{- end -}}

@@ -74,6 +74,11 @@ enableRobotsTXT = true
   featuredImageField = "image"
   rssFullContent = true
 
+[params.author]
+  orcid = "https://orcid.org/0009-0005-2429-3279"
+  name = "矢崎裕一"
+  profileURL = "https://visualizing.jp/profile/"
+
 [params.footer]
   since = 2026
   customText = ""
