@@ -5,6 +5,12 @@
     </section>
 
     <section class="powerby">
+        {{ if eq .Language.Lang "en" }}
+        <a href="{{ "/en/privacy/" | relURL }}">Privacy Policy</a><br />
+        {{ else }}
+        <a href="{{ "/privacy/" | relURL }}">プライバシーポリシー</a><br />
+        {{ end }}
+
         {{ with .Site.Params.footer.customText }}
         {{ . | safeHTML }} <br />
         {{ end }}

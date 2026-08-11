@@ -1,0 +1,44 @@
+{{- $measurementID := .Site.Config.Services.GoogleAnalytics.ID -}}
+{{- if and hugo.IsProduction $measurementID -}}
+<script data-ga-measurement-id="{{ $measurementID }}">
+(() => {
+    const measurementId = document.currentScript.dataset.gaMeasurementId;
+    const dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+
+    if (dnt === "1" || dnt === "yes") return;
+
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+
+    const loader = document.createElement("script");
+    loader.async = true;
+    loader.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(measurementId)}`;
+    document.head.appendChild(loader);
+
+    window.gtag("js", new Date());
+    window.gtag("config", measurementId);
+
+    document.addEventListener("click", (event) => {
+        if (!(event.target instanceof Element)) return;
+
+        const link = event.target.closest("a[href]");
+        if (!link) return;
+
+        const destination = new URL(link.href, window.location.href);
+        let contactMethod = "";
+
+        if (destination.protocol === "mailto:") {
+            contactMethod = "email";
+        } else if (destination.hostname === "forms.gle") {
+            contactMethod = "google_form";
+        }
+
+        if (contactMethod) {
+            window.gtag("event", "contact_start", {
+                contact_method: contactMethod
+            });
+        }
+    });
+})();
+</script>
+{{- end -}}
