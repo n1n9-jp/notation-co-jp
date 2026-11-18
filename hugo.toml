@@ -198,12 +198,6 @@ enableRobotsTXT = true
   url = "https://forms.gle/VoK2d2BCKyHQaD6y9"
   weight = 99
 
-[[languages.ja.menu.main]]
-  identifier = "english"
-  name = "English"
-  url = "/en/"
-  weight = 100
-
 [[languages.en.menu.main]]
   identifier = "posts"
   name = "Home"
@@ -251,12 +245,6 @@ enableRobotsTXT = true
   name = "Contact"
   url = "https://forms.gle/VoK2d2BCKyHQaD6y9"
   weight = 99
-
-[[languages.en.menu.main]]
-  identifier = "japanese"
-  name = "日本語"
-  url = "/"
-  weight = 100
 
 [related]
   includeNewer = true
