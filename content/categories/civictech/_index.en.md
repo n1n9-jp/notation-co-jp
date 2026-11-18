@@ -4,4 +4,4 @@ description = "An archive of Yuichi Yazaki's past civic-tech work, including ope
 slug = "civictech"
 +++
 
-This page archives civic-tech work previously undertaken by Yuichi Yazaki of Notation LLC. During the 2010s, he contributed a data visualization perspective to open-data and civic-collaboration projects.
+This page archives past civic-tech work from the 2010s, which brought a data visualization perspective to open-data and civic-collaboration projects.
