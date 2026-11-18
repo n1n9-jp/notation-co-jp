@@ -291,3 +291,14 @@ vercel-live-feedback {
     /* Let content breathe? */
   }
 }
+
+.sidebar header .site-avatar {
+  width: calc(var(--sidebar-avatar-size) * 0.8);
+  height: calc(var(--sidebar-avatar-size) * 0.8);
+
+  .site-logo {
+    border-radius: 0;
+    box-shadow: none;
+    background: transparent;
+  }
+}

@@ -34,7 +34,7 @@ enableRobotsTXT = true
 
     [languages.en.params.sidebar.author]
       name = "Yuichi Yazaki"
-      image = "img/logo.png"
+      image = "img/notation-logo-2c.svg"
       bio = "Founder of Notation LLC. A data visualization specialist engaged in practice, education, and outreach. After seven years as a user interface designer and art director at Business Architects Inc., he became independent. He teaches at companies and educational institutions, publishes through Visualizing.JP, and runs community activities via Data Visualization Japan. Sole author of *The Complete Guide to the Fundamentals of Data Visualization* and co-author of *The RESAS Textbook* (Nikkei BP, 2016). Master of Design Science, Chiba Institute of Technology. Founder of Data Visualization Japan and Yahoo! News Expert."
 
 [module]
@@ -96,12 +96,12 @@ enableRobotsTXT = true
 
 [params.sidebar.avatar]
   enabled = true
-  local = true
-  src = "img/logo.png"
+  local = false
+  src = "/img/notation-logo-2c.svg"
 
 [params.sidebar.author]
   name = "矢崎裕一"
-  image = "img/logo.png"
+  image = "img/notation-logo-2c.svg"
   bio = "合同会社ノーテーション代表。データ可視化の実践、教育、普及活動に従事。株式会社ビジネス・アーキテクツにてユーザー・インターフェイス・デザイナーおよびアート・ディレクターを7年間経験後、独立。企業や教育機関での講義活動、ウェブサイトVisualizing.JPにおける情報発信、コミュニティData Visualization Japanにおけるコミュニティ活動など、データ可視化の実践と普及に関する活動をおこなっている。単著『データ可視化の基本が全部わかる本』、共著『RESASの教科書』(日経BP、2016)。千葉工業大学デザイン科学修士修了。データ・ビジュアライゼーション・ジャパン発起人/Yahoo!ニュース・エキスパート。"
 
 [params.article]
