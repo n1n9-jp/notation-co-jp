@@ -20,6 +20,8 @@ Yuichi Yazaki of Notation LLC appeared as a guest on "Friday Design Anthropology
 - **Episode title:** Catching It in the Data Field
 - **Overview:** A conversation program that invites front-runners from various fields to rethink what it means to make things today. Topics included how he came to data visualization, his path as a designer, the impact of Eyeo Festival 2012, teaching data science at an art university, digital archives, and how generative AI is widening access to visualization.
 
+![The recording venue](images/recording-venue.jpg)
+
 ## Related Links
 
 - [Episode on YouTube (Japanese)](https://www.youtube.com/watch?v=E4Eo6v7GDK4)
